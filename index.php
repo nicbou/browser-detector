@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Vous devriez essayer Firefox ou Chrome -->
-		<title>Quel navigateur utilisez-vous?</title>
+		<title>Which browser are you using?</title>
 		<meta name="language" content="fr"/> 
 		<meta charset="UTF-8"/> 
 		<meta name="author" content="Nicolas Bouliane"/> 
-		<meta name="description" content="Cet outil détecte le navigateur que vous utilisez ainsi que la résolution de votre écran."/>
+		<meta name="description" content="This tool detects which browser you are using."/>
 		<link rel="stylesheet" href="style.css" type="text/css"/>
 		<link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'/>
-		<link rel='canonical' href='http://nicolasbouliane.com/navigateur'/>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 		<script type="text/javascript"><!--
 			$(document).ready(function(){
@@ -142,11 +140,11 @@
 			document.write('<img id="browsericon" src="' + BrowserDetect.browser.toLowerCase() + '.jpg" alt="Vous utilisez ' + BrowserDetect.browser + '"/>');
 		}
 		else if(BrowserDetect.browser == "Internet Explorer"){
-			document.write('<img id="browsericon" src="ie.jpg" alt="Vous utilisez ' + BrowserDetect.browser + '"/>');
+			document.write('<img id="browsericon" src="ie.jpg" alt="You are using ' + BrowserDetect.browser + '"/>');
 		}
 		</script>
 		<h2 id="currentbrowser">
-			<script type="text/javascript">document.write('Vous utilisez <span class="browser">' + BrowserDetect.browser + ' ' + BrowserDetect.version + '</span> sur ' + BrowserDetect.OS);</script>
+			<script type="text/javascript">document.write('You are using <span class="browser">' + BrowserDetect.browser + ' ' + BrowserDetect.version + '</span> for ' + BrowserDetect.OS);</script>
 		</h2>
 		<script type="text/javascript">
 			var width = window.screen.width;
@@ -154,7 +152,7 @@
 			var currWidth = window.screen.currWidth;
 			var currHeight = window.screen.currHeight;
 			
-			document.write('<span id="resolution">Votre résolution d\'écran: ' + width + 'x' + height + '</span>');
+			document.write('<span id="resolution">Your screen resolution: ' + width + 'x' + height + '</span>');
 		</script>
 	</div></body>
 </html>
