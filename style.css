@@ -1,0 +1,13 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0}
+table {border-collapse:collapse;border-spacing:0}
+fieldset,img {border:0}
+ol,ul {list-style:none}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;padding-top:.75em}
+
+body{margin:0;width:100%;height:100%;background:#f2f2f2 url('body-bg2.png') fixed repeat-x;}
+#currentbrowser{text-align:center}
+#wrapper{position:absolute;top:50%;left:50%;margin:-191px -317px;width:535px;height:282px;padding:10px 50px 30px;font:15px 'Segoe UI', Arial, Verdana, Helvetica, sans-serif;background:#fff}
+.browser{color:#33f}
+#browsericon{display:block;margin:0 auto}
+h2{font-size:25px;line-height:25px;margin:0 0 22px;color:#222}
+#resolution{display:block;text-align:center;color:#666;text-decoration:none;font-size:13px}
